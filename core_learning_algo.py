@@ -1,6 +1,10 @@
 import tensorflow as tf 
+import matplotlib.pyplot as plt
 import numpy as np 
 import matplotlib as plt
+fromIPython.display import clear_output
+from six.moves import urllib
+
 
 #linear regression
 #life expectancy, algo finds magnitude
