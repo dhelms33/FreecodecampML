@@ -1,4 +1,5 @@
 #dfeval.shape
+#ended 5:22
 #(264,9)
 #typically have testing and training data
 import tensorflow as tf 
