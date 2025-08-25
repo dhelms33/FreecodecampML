@@ -1,5 +1,4 @@
 #dfeval.shape
-#ended 5:22
 #(264,9)
 #typically have testing and training data
 import tensorflow as tf 
@@ -24,4 +23,11 @@ for feature_name in NUMERIC_COLUMNS:
     feature_columns.append(tf.feature_column.numeric_column(feature_name, dtype=tf.float32))
     
 print(feature_columns)
+
+#commands being run to get unique values
+#dftrain["sex"].unique
+#dftrain["embark_town"].unique()
+
+#linear regression needs all vocabs
+
 
